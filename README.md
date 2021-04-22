@@ -73,7 +73,7 @@ There is a module for each dataset. Currently, these are:
 | `senti4sd` | Sentiment analysis on Stack Overflow comments | https://github.com/collab-uniba/Senti4SD |
 | `smell_detection` | Linguistic smell detection | https://github.com/Smfakhoury/SANER-2018-KeepItSimple- |
  
-Some of the used datasets (e.g., CLAP are not publicly avaiable).
+Some of the used datasets (e.g., CLAP) are not publicly avaiable.
 Datasets were preprocessed and brought into a standard format. If you like to rerun one of the experiments, please contact
 one of the authors for the dataset in the correct format. Datasets must be placed in `/data/<module>/`.
 Training parameters can be set in `/dl4se/config/<module>`, dataset loading is handled in `/dl4se/datasets/<module>`.
@@ -83,7 +83,7 @@ of possible command line options.
 
 To run an experiment execute the following:
 ```
-python -mdl4se.experiments.<modules>.default --seeds 100 200 300 400 500 --out_file=result_file.csv
+python -mdl4se.experiments.<module>.default --seeds 100 200 300 400 500 --out_file=result_file.csv
 ```
 
 
