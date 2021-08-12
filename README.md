@@ -4,7 +4,8 @@
 
 ### StackOBERTflow
 
-This model can be used directly through the `transformers` library:
+We released and uploaded the model to Huggingface's model hub ([StackOBERTflow-comments-small-v1](https://huggingface.co/giganticode/StackOBERTflow-comments-small-v1))
+The model can thus be used directly through the `transformers` library:
 
 ```python
 from transformers import AutoTokenizer, AutoModelForMaskedLM
