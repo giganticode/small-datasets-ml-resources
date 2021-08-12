@@ -48,6 +48,13 @@ pprint(fill_mask(COMMENT))
 ### Fine-tuned models
 
 Download the zipped model from the release page and extract to `model/path`.
+The following models are available:
+* [BERT (base) fine-tuned on the AR Miner dataset](https://github.com/giganticode/small-datasets-ml-resources/releases/download/0.1/bert_ar_miner.zip)
+* [RoBERTa fine-tuned on the AR Miner dataset](https://github.com/giganticode/small-datasets-ml-resources/releases/download/0.1/roberta_ar_miner.zip)
+* [BERT (base) fine-tuned on 1M StackOverflow comments](https://github.com/giganticode/small-datasets-ml-resources/releases/download/0.1/stackoverflow_1M.zip)
+* [BERT (base) fine-tuned on 2M StackOverflow comments](https://github.com/giganticode/small-datasets-ml-resources/releases/download/0.1/stackoverflow_2M.zip) 
+* [BERT (large) fine-tuned on 1M StackOverflow comments](https://github.com/giganticode/small-datasets-ml-resources/releases/download/0.1/stackoverflow_1M_large.zip) 
+* [BERT (base) fine-tuned on Java comments](https://github.com/giganticode/small-datasets-ml-resources/releases/download/0.1/bert_comments.zip)
 
 ```python
 from transformers import AutoTokenizer, AutoModelForMaskedLM
