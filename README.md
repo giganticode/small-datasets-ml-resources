@@ -199,7 +199,7 @@ class GFG {
   public static void main(String[] args) {...}
 }
 ``` 
-**Label:** smelly (transform method does not return)
+**Label:** O(n log n)
 
 ## Code readability classification
 
