@@ -148,7 +148,7 @@ public int getMilk() {
 *Label:*: positive (coherent) 
 
 ```java
-"/**
+/**
    * Check inventory user interface that processes input.
    */
 public static void checkInventory() {
